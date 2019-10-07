@@ -12,7 +12,7 @@ use Symfony\Component\Routing\Annotation\Route;
 class DefaultController extends AbstractController
 {
     /**
-     * @Route("/accueil", name="default")
+     * @Route("/", name="default")
      */
     public function index()
     {
@@ -29,7 +29,7 @@ class DefaultController extends AbstractController
     {
         $firstName = "Michel";
         $lastName = "DUPOND";
-        return $this->render('default/user.html.twig', [
+        return $this->render('user/user.html.twig', [
             'first_name'=>$firstName,
             'last_name'=>$lastName,
         ]);
