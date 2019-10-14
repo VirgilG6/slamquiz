@@ -41,10 +41,6 @@
         <source>Home</source>
         <target>Accueil</target>
       </trans-unit>
-      <trans-unit id="pqMtvFY" resname="Link">
-        <source>Link</source>
-        <target>Lien</target>
-      </trans-unit>
       <trans-unit id="dQgbWT0" resname="Disabled">
         <source>Disabled</source>
         <target>Indisponible</target>
@@ -104,6 +100,10 @@
       <trans-unit id="ScJmuqq" resname="Search">
         <source>Search</source>
         <target>Rechercher</target>
+      </trans-unit>
+      <trans-unit id="v9QCsvb" resname="Sign in">
+        <source>Sign in</source>
+        <target>Se connecter</target>
       </trans-unit>
     </body>
   </file>

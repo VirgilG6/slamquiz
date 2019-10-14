@@ -7,7 +7,7 @@
 
     {{ include('category/_form.html.twig', {'button_label': 'Update'}) }}
 
-    <a href="{{ path('category_index') }}">{% trans %}back to list{% endtrans %}</a>
+    <a class="btn btn-primary" href="{{ path('category_index') }}">{% trans %}back to list{% endtrans %}</a>
 
     {{ include('category/_delete_form.html.twig') }}
 {% endblock %}
