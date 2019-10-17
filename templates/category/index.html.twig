@@ -21,9 +21,9 @@
                 <td>{{ category.shortname }}</td>
                 <td>{{ category.longname }}</td>
                 <td>
-                    <a class="btn btn-primary" href="{{ path('category_edit', {'id': category.id}) }}"><i class="fas fa-edit"></i> {% trans %}edit{% endtrans %}</a>
+                    <a class="btn btn-primary" href="{{ path('category_show', {'id': category.id}) }}"><i class="fas fa-eye"></i> {% trans %}show{% endtrans %}</a>
+                    {% if is_granted('ROLE_ADMIN') %}<a class="btn btn-primary" href="{{ path('category_edit', {'id': category.id}) }}"><i class="fas fa-edit"></i> {% trans %}edit{% endtrans %}</a>{% endif %}
                     {% if is_granted('ROLE_SUPER_ADMIN') %}<a class="btn btn-primary" href="{{ path('category_delete', {'id': category.id}) }}"><i class="fas fa-trash-alt"></i> {% trans %}delete{% endtrans %}</a>{% endif %}
-                    {% if is_granted('ROLE_ADMIN') %}<a class="btn btn-primary" href="{{ path('category_show', {'id': category.id}) }}"><i class="fas fa-eye"></i> {% trans %}show{% endtrans %}</a>{% endif %}
                 </td>
             </tr>
         {% else %}
