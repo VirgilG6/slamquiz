@@ -105,6 +105,14 @@
         <source>Search</source>
         <target>Rechercher</target>
       </trans-unit>
+      <trans-unit id="z4d_.b7" resname="This project is an online MCQ that is used to check if your students have understood the course given to them.">
+        <source>This project is an online MCQ that is used to check if your students have understood the course given to them.</source>
+        <target>Ce projet est un QCM en ligne qui sert à vérifier si vos élèves ont bien compris le cours qui leur a été donné.</target>
+      </trans-unit>
+      <trans-unit id="GF_NsyJ" resname="Hello">
+        <source>Hello</source>
+        <target>Bonjour</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>

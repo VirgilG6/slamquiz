@@ -8,14 +8,14 @@
     .example-wrapper code { background: #F5F5F5; padding: 2px 6px; }
 </style>
 
-<div class="example-wrapper">
-    <h1>Hello {{ controller_name }}! ✅</h1>
-
-    This friendly message is coming from:
-    <ul>
-        <li> <a href=" {{ url('user_index') }}">Liste des utilisateurs</a> </li>
-    </ul>
+<div class="jumbotron">
+    <h1>{% trans %} Hello {% endtrans %}</h1>
+    <p>{% trans %} This project is an online MCQ that is used to check if your students have understood the course given to them. {% endtrans %}</p>
 </div>
+
+<ul>
+    <li> <a href=" {{ url('user_index') }}">Liste des utilisateurs</a> </li>
+</ul>
 
 <button class="btn btn-primary">Se connecter</button>
 {% endblock %}
