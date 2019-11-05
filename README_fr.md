@@ -1,5 +1,5 @@
 # Présentation du logiciel slamquiz
-![alt text](C:\VG\php\symfony\slamquiz\assets\screenshot_home1.jpg)
+![alt text](https://github.com/VirgilG6/slamquiz/blob/develop/assets/screenshot_home1.jpg)
 
 ## Installation
 1. Créer un espace de stockage sur votre ordinateur (exemple: quizz):
@@ -45,5 +45,5 @@ Mot de passe: 123456
 Identifiant: Superadmin
 Mot de passe: 123456
 
-Le mot de passe est le même car c'était pour tester
+Le mot de passe est le même car c'était pour tester.
 ```
