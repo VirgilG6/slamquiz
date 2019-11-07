@@ -2,9 +2,9 @@
 ![alt text](https://github.com/VirgilG6/slamquiz/blob/develop/assets/screenshot_home.jpg)
 
 ## Installation
-1. Create storage space on your computer:
+1. Create storage space on your computer (exemple: quizz):
 ```
-cd temp
+cd quizz
 ```
 
 2. Clone the project using the following command:
