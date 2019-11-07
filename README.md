@@ -24,17 +24,29 @@ composer install
 DATABASE_URL=mysql://db_user:db_password@127.0.0.1:3306/db_name
 ```
 
-6. Start the server with the command:
+6. To execute your migrations, enter the following command:
+'''
+php bin/console doctrine:migrations:migrate
+'''
+
+7. To load the fixtures, enter the command:
+'''
+php bin/console doctrine:fixtures:load
+
+yes
+'''
+
+8. Start the server with the command:
 ```
 php bin/console server:run
 ```
 
-7. Open the index page on a browser:
+9. Open the index page on a browser:
 ```
 localhost:8000
 ```
 
-8. Existing account:
+10. Existing account:
 ```
 Login: User
 Password: 123456
