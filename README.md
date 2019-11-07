@@ -25,16 +25,16 @@ DATABASE_URL=mysql://db_user:db_password@127.0.0.1:3306/db_name
 ```
 
 6. To execute your migrations, enter the following command:
-'''
+```
 php bin/console doctrine:migrations:migrate
-'''
+```
 
 7. To load the fixtures, enter the command:
-'''
+```
 php bin/console doctrine:fixtures:load
 
 yes
-'''
+```
 
 8. Start the server with the command:
 ```
