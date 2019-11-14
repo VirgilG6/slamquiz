@@ -20,6 +20,7 @@ class CategoryController extends AbstractController
      */
     public function index(CategoryRepository $categoryRepository): Response
     {
+
         return $this->render('category/index.html.twig', [
             'categories' => $categoryRepository->findAll(),
         ]);
@@ -30,6 +31,7 @@ class CategoryController extends AbstractController
      */
     public function new(Request $request): Response
     {
+
         $category = new Category();
         $form = $this->createForm(CategoryType::class, $category);
         $form->handleRequest($request);
@@ -53,6 +55,7 @@ class CategoryController extends AbstractController
      */
     public function show(Category $category): Response
     {
+        
         return $this->render('category/show.html.twig', [
             'category' => $category,
         ]);

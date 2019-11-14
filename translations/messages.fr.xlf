@@ -41,14 +41,6 @@
         <source>Home</source>
         <target>Accueil</target>
       </trans-unit>
-      <trans-unit id="pqMtvFY" resname="Link">
-        <source>Link</source>
-        <target>Lien</target>
-      </trans-unit>
-      <trans-unit id="dQgbWT0" resname="Disabled">
-        <source>Disabled</source>
-        <target>Indisponible</target>
-      </trans-unit>
       <trans-unit id="LITdjVn" resname="Dropdown">
         <source>Dropdown</source>
         <target>Menu déroulant</target>
@@ -112,6 +104,13 @@
       <trans-unit id="GF_NsyJ" resname="Hello">
         <source>Hello</source>
         <target>Bonjour</target>
+      <trans-unit id="v9QCsvb" resname="Sign in">
+        <source>Sign in</source>
+        <target>Se connecter</target>
+      </trans-unit>
+      <trans-unit id="u3I07BJ" resname="Register">
+        <source>Register</source>
+        <target>Inscription</target>
       </trans-unit>
     </body>
   </file>
