@@ -23,25 +23,29 @@ class UserFixtures extends Fixture
         $user = new User();
         $user->setEmail('user@gmail.com');
         $user->setRoles(['ROLE_USER']);
-        $user->setPassword('123456');
+        $user->setPassword($this->passwordEncoder->encodePassword(
+            $user,
+            '123456'
+        ));
         $manager->persist($user);
 
         $user = new User();
         $user->setEmail('admin@gmail.com');
         $user->setRoles(['ROLE_ADMIN']);
-        $user->setPassword('123456');
+        $user->setPassword($this->passwordEncoder->encodePassword(
+            $user,
+            '123456'
+        ));
         $manager->persist($user);
 
         $user = new User();
         $user->setEmail('superadmin@gmail.com');
         $user->setRoles(['ROLE_SUPER_ADMIN']);
-        $user->setPassword('123456');
-        $manager->persist($user);
-
         $user->setPassword($this->passwordEncoder->encodePassword(
             $user,
-            'the_new_password'
+            '123456'
         ));
+        $manager->persist($user);
 
         $manager->flush();
     }
