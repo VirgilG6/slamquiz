@@ -18,9 +18,6 @@ class SecurityControllerTest extends WebTestCase
      */
     public function testShowLogin()
     {
-        // Request /login 
-        $this->client->request('GET', '/login');
-
         // Asserts that /login path exists and don't return an error
         $client = static::createClient();
 
@@ -64,4 +61,23 @@ class SecurityControllerTest extends WebTestCase
         c'est à dire affirmer que le contenu de la réponse contient '<input type="password" name="password" id="inputPassword" class="form-control" placeholder="Password" required>'
         */
     }
+
+    /*
+    Verify that the category list is not displayed to users who do not have the admin role
+    */
+    public function testNotShowCategory()
+    {
+        // Asserts that category path move to another path (login)
+        $client = static::createClient();
+
+        $client->request('GET', '/category');
+
+        $this->assertEquals(301, $client->getResponse()->getStatusCode());
+        /* 
+        Ecrire ici le code pour vérifier que, si l'utilisateur n'est pas connecté, 
+        la requête '/category' renvoie vers une autre page (la page /login)
+        c'est à dire affirmer que le code de statut de la réponse est égale à 301 (Response::HTTP_MOVED_PERMANENTLY)
+        */ 
+    }
+
 }
