@@ -1,5 +1,5 @@
 # Présentation du logiciel slamquiz
-![Build Status](https://travis-ci.org/VirgilG6/slamquiz.svg?branch=master)
+[![Build Status](https://travis-ci.org/VirgilG6/slamquiz.svg?branch=master)](https://travis-ci.org/VirgilG6/slamquiz)
 
 ![alt text](https://github.com/VirgilG6/slamquiz/blob/develop/assets/screenshot_home1.jpg)
 
