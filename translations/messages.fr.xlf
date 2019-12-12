@@ -93,6 +93,34 @@
         <source>This project is an online MCQ that is used to check if your students have understood the course given to them.</source>
         <target>Ce projet est un QCM en ligne qui sert à vérifier si vos élèves ont bien compris le cours qui leur a été donné.</target>
       </trans-unit>
+      <trans-unit id="cZiMTY4" resname="Text">
+        <source>Text</source>
+        <target>Texte</target>
+      </trans-unit>
+      <trans-unit id="rKAaGjo" resname="Correct">
+        <source>Correct</source>
+        <target>Vrai</target>
+      </trans-unit>
+      <trans-unit id="D5lam8." resname="no records found">
+        <source>no records found</source>
+        <target>Aucun enregistrement trouvé</target>
+      </trans-unit>
+      <trans-unit id="sqOqYCd" resname="Answer">
+        <source>Answer</source>
+        <target>Réponse</target>
+      </trans-unit>
+      <trans-unit id="nVRn3MP" resname="Edit Answer">
+        <source>Edit Answer</source>
+        <target>Editer la réponse</target>
+      </trans-unit>
+      <trans-unit id="qBTARCG" resname="Create new Answer">
+        <source>Create new Answer</source>
+        <target>Créer une nouvelle réponse</target>
+      </trans-unit>
+      <trans-unit id="4tClSWj" resname="Delete">
+        <source>Delete</source>
+        <target>Supprimer</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>

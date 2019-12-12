@@ -1,0 +1,30 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Answer{% endblock %}
+
+{% block body %}
+    <h1>Answer</h1>
+
+    <table class="table">
+        <tbody>
+            <tr>
+                <th>{% trans %}Id{% endtrans %}</th>
+                <td>{{ answer.id }}</td>
+            </tr>
+            <tr>
+                <th>{% trans %}Text{% endtrans %}</th>
+                <td>{{ answer.text }}</td>
+            </tr>
+            <tr>
+                <th>{% trans %}Correct{% endtrans %}</th>
+                <td>{{ answer.correct }}</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <a href="{{ path('answer_index') }}">{% trans %}back to list{% endtrans %}</a>
+
+    <a href="{{ path('answer_edit', {'id': answer.id}) }}">{% trans %}edit{% endtrans %}</a>
+
+    {{ include('answer/_delete_form.html.twig') }}
+{% endblock %}

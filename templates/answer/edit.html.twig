@@ -1,0 +1,13 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Edit Answer{% endblock %}
+
+{% block body %}
+    <h1>{% trans %}Edit Answer{% endtrans %}</h1>
+
+    {{ include('answer/_form.html.twig', {'button_label': 'Update'}) }}
+
+    <a href="{{ path('answer_index') }}">{% trans %}back to list{% endtrans %}</a>
+
+    {{ include('answer/_delete_form.html.twig') }}
+{% endblock %}
