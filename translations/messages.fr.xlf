@@ -121,6 +121,34 @@
         <source>Delete</source>
         <target>Supprimer</target>
       </trans-unit>
+      <trans-unit id="nibTd3r" resname="Edit Question">
+        <source>Edit Question</source>
+        <target>Editer la question</target>
+      </trans-unit>
+      <trans-unit id="2p1awvt" resname="Question index">
+        <source>Question index</source>
+        <target>Index des questins</target>
+      </trans-unit>
+      <trans-unit id="uLHYlMa" resname="Categories">
+        <source>Categories</source>
+        <target>Categories</target>
+      </trans-unit>
+      <trans-unit id="5VzXa2Z" resname="2 answers">
+        <source>2 answers</source>
+        <target>Réponse 2</target>
+      </trans-unit>
+      <trans-unit id="l_USnPv" resname="3 answers">
+        <source>3 answers</source>
+        <target>Réponse 3</target>
+      </trans-unit>
+      <trans-unit id="pCS30P3" resname="4 answers">
+        <source>4 answers</source>
+        <target>Réponse 4</target>
+      </trans-unit>
+      <trans-unit id="E2JqnxS" resname="Create new Question">
+        <source>Create new Question</source>
+        <target>Créer une nouvelle question</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>
