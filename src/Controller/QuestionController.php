@@ -46,6 +46,15 @@ class QuestionController extends AbstractController
         }    
         
         $form = $this->createForm(QuestionType::class, $question);
+        $form->handleRequest($request);
+
+        if ($form->isSubmitted() && $form->isValid()) {
+            $entityManager = $this->getDoctrine()->getManager();
+            $entityManager->persist($question);
+            $entityManager->flush();
+
+            return $this->redirectToRoute('question_index');
+        }
 
         return $this->render('question/new.html.twig', [
             'question' => $question,
