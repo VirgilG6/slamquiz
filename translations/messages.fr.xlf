@@ -149,6 +149,14 @@
         <source>Create new Question</source>
         <target>Créer une nouvelle question</target>
       </trans-unit>
+      <trans-unit id="ldY1tXH" resname="Create new question with">
+        <source>Create new question with</source>
+        <target>Créer une nouvelle question avec</target>
+      </trans-unit>
+      <trans-unit id="cXVRejc" resname="or">
+        <source>or</source>
+        <target>ou</target>
+      </trans-unit>
     </body>
   </file>
 </xliff>

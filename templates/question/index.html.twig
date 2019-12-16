@@ -37,8 +37,8 @@
         </tbody>
     </table>
 
-    Create new question with
+    {% trans %}Create new question with{% endtrans %}
     <a href="{{ path('question_new', {'nb': 2}) }}">{% trans %} 2 answers{% endtrans %}</a>,
     <a href="{{ path('question_new', {'nb': 3}) }}">{% trans %} 3 answers{% endtrans %}</a>
-    or <a href="{{ path('question_new', {'nb': 4}) }}">{% trans %} 4 answers{% endtrans %}</a>
+    {% trans %}or{% endtrans %} <a href="{{ path('question_new', {'nb': 4}) }}">{% trans %} 4 answers{% endtrans %}</a>
 {% endblock %}
