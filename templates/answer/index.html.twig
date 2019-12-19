@@ -19,7 +19,7 @@
             <tr>
                 <td>{{ answer.id }}</td>
                 <td>{{ answer.text }}</td>
-                <td>{{ answer.correct }}</td>
+                <td>{{ answer.correct ? 'Yes' : 'No' }}</td>
                 <td>
                     <a href="{{ path('answer_show', {'id': answer.id}) }}"> <i class="fas fa-eye"></i>{% trans %}show{% endtrans %}</a>
                     <a href="{{ path('answer_edit', {'id': answer.id}) }}"> <i class="fas fa-edit"></i>{% trans %}edit{% endtrans %}</a>
