@@ -47,6 +47,15 @@ class Quiz
      */
     private $updated_at;
 
+    public function __construct()
+    {
+        $this->categories = new ArrayCollection();
+        $this->answers = new ArrayCollection();
+
+        $this->setCreatedAt(new \DateTime());
+        $this->setUpdatedAt(new \DateTime());
+    }
+
     public function getId(): ?int
     {
         return $this->id;
