@@ -3,6 +3,7 @@
 namespace App\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
+use Doctrine\Common\Collections\ArrayCollection;
 
 /**
  * @ORM\Entity(repositoryClass="App\Repository\QuizRepository")
@@ -50,7 +51,6 @@ class Quiz
     public function __construct()
     {
         $this->categories = new ArrayCollection();
-        $this->answers = new ArrayCollection();
 
         $this->setCreatedAt(new \DateTime());
         $this->setUpdatedAt(new \DateTime());
