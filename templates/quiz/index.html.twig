@@ -32,6 +32,11 @@
                     <a href="{{ path('quiz_show', {'id': quiz.id}) }}">show</a>
                     <a href="{{ path('quiz_edit', {'id': quiz.id}) }}">edit</a>
                 </td>
+                <td>
+                    {% for categorie in Quiz.categories %}
+                        {{ Category.quizzes }}
+                    {% endfor %}
+                </td>
             </tr>
         {% else %}
             <tr>
