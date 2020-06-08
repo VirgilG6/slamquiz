@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xliff xmlns="urn:oasis:names:tc:xliff:document:1.2" version="1.2">
+  <file source-language="fr" target-language="fr" datatype="plaintext" original="file.ext">
+    <header>
+      <tool tool-id="symfony" tool-name="Symfony"/>
+    </header>
+    <body>
+      <trans-unit id="YZdZVQP" resname="delete">
+        <source>delete</source>
+        <target>Supprimer</target>
+      </trans-unit>
+      <trans-unit id="HGMzUJ3" resname="show">
+        <source>show</source>
+        <target>Voir</target>
+      </trans-unit>
+      <trans-unit id="JiEhxTc" resname="edit">
+        <source>edit</source>
+        <target>Modifier</target>
+      </trans-unit>
+      <trans-unit id="nz33U6Q" resname="Create new">
+        <source>Create new</source>
+        <target>Créer une nouvelle catégorie</target>
+      </trans-unit>
+      <trans-unit id="EhVukhv" resname="Id">
+        <source>Id</source>
+        <target>Identifiant</target>
+      </trans-unit>
+      <trans-unit id="JDGJ6tc" resname="Shortname">
+        <source>Shortname</source>
+        <target>Nom court</target>
+      </trans-unit>
+      <trans-unit id="9iiazAv" resname="Longname">
+        <source>Longname</source>
+        <target>Nom long</target>
+      </trans-unit>
+      <trans-unit id="Kw3N1AA" resname="actions">
+        <source>actions</source>
+        <target>Actions</target>
+      </trans-unit>
+      <trans-unit id="OnhpU4i" resname="Home">
+        <source>Home</source>
+        <target>Accueil</target>
+      </trans-unit>
+      <trans-unit id="pqMtvFY" resname="Link">
+        <source>Link</source>
+        <target>Lien</target>
+      </trans-unit>
+      <trans-unit id="dQgbWT0" resname="Disabled">
+        <source>Disabled</source>
+        <target>Indisponible</target>
+      </trans-unit>
+      <trans-unit id="LITdjVn" resname="Dropdown">
+        <source>Dropdown</source>
+        <target>Menu déroulant</target>
+      </trans-unit>
+      <trans-unit id="ZM.xMZ0" resname="Action">
+        <source>Action</source>
+        <target>Action</target>
+      </trans-unit>
+      <trans-unit id="wvqtrho" resname="Another action">
+        <source>Another action</source>
+        <target>Autre action</target>
+      </trans-unit>
+      <trans-unit id="RDzxF2T" resname="Something else here">
+        <source>Something else here</source>
+        <target>Autre chose ici</target>
+      </trans-unit>
+      <trans-unit id="xo05DSt" resname="Category index">
+        <source>Category index</source>
+        <target>Index de categorie</target>
+      </trans-unit>
+      <trans-unit id="9x44oDa" resname="Bootstrap starter template">
+        <source>Bootstrap starter template</source>
+        <target>Modèle de démarrage Bootstrap</target>
+      </trans-unit>
+      <trans-unit id="WNhpi5d" resname="Use this document as a way to quickly start any new project.">
+        <source>Use this document as a way to quickly start any new project.</source>
+        <target>Utilisez ce document comme moyen de démarrer rapidement tout nouveau projet.</target>
+      </trans-unit>
+      <trans-unit id="KSwG8AR" resname="Category">
+        <source>Category</source>
+        <target>Categorie</target>
+      </trans-unit>
+      <trans-unit id="pz13uig" resname="All you get is this text and a mostly barebones HTML document.">
+        <source>All you get is this text and a mostly barebones HTML document.</source>
+        <target>Tout ce que vous obtenez est ce texte et un document HTML essentiellement nu-osseux.</target>
+      </trans-unit>
+      <trans-unit id="DZO3ehf" resname="Edit Category">
+        <source>Edit Category</source>
+        <target>Modifier les categories</target>
+      </trans-unit>
+      <trans-unit id="U0M9PNE" resname="back to list">
+        <source>back to list</source>
+        <target>Retour</target>
+      </trans-unit>
+      <trans-unit id="W6joEsF" resname="Create new Category">
+        <source>Create new Category</source>
+        <target>Créer une nouvelle categorie</target>
+      </trans-unit>
+      <trans-unit id="4tClSWj" resname="Delete">
+        <source>Delete</source>
+        <target>Supprimer</target>
+      </trans-unit>
+      <trans-unit id="ScJmuqq" resname="Search">
+        <source>Search</source>
+        <target>Rechercher</target>
+      </trans-unit>
+      <trans-unit id="z4d_.b7" resname="This project is an online MCQ that is used to check if your students have understood the course given to them.">
+        <source>This project is an online MCQ that is used to check if your students have understood the course given to them.</source>
+        <target>Ce projet est un QCM en ligne qui sert à vérifier si vos élèves ont bien compris le cours qui leur a été donné.</target>
+      </trans-unit>
+      <trans-unit id="GF_NsyJ" resname="Hello">
+        <source>Hello</source>
+        <target>Bonjour</target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>
