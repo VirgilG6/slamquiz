@@ -1,5 +1,5 @@
 # Présentation du logiciel slamquiz
-![alt text](C:\VG\php\symfony\slamquiz\assets\screenshot_home1.jpg)
+![alt text](https://github.com/VirgilG6/slamquiz/blob/master/assets/screenshot_home1.jpg)
 
 ## Installation
 1. Créer un espace de stockage sur votre ordinateur (exemple: quizz):
